@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"HTML &#x2013; Links &amp; Tag-Erkl&#xe4;rung","children":[{"content":"Beispiel-Link","children":[{"content":"<code>&lt;a href=&quot;http://dbe.academy/&quot;&gt;weiter&lt;/a&gt;</code>","children":[],"payload":{"tag":"li","lines":"9,11"}}],"payload":{"tag":"h2","lines":"8,9"}},{"content":"Bestandteile","children":[{"content":"<code>&lt;a&gt;</code>","children":[{"content":"Link-Tag","children":[{"content":"(Etiqueta de enlace)","children":[],"payload":{"tag":"li","lines":"15,17"}}],"payload":{"tag":"li","lines":"14,17"}}],"payload":{"tag":"h3","lines":"13,14"}},{"content":"<code>href</code>","children":[{"content":"Zieladresse","children":[{"content":"(Direcci&#xf3;n de destino)","children":[],"payload":{"tag":"li","lines":"19,21"}}],"payload":{"tag":"li","lines":"18,21"}}],"payload":{"tag":"h3","lines":"17,18"}},{"content":"<code>weiter</code>","children":[{"content":"Sichtbarer Text","children":[{"content":"(Texto visible)","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"li","lines":"22,24"}},{"content":"Anklickbar","children":[{"content":"(Se puede hacer clic)","children":[],"payload":{"tag":"li","lines":"25,27"}}],"payload":{"tag":"li","lines":"24,27"}}],"payload":{"tag":"h3","lines":"21,22"}},{"content":"<code>&lt;/a&gt;</code>","children":[{"content":"Schlie&#xdf;endes Tag","children":[{"content":"(Etiqueta de cierre)","children":[],"payload":{"tag":"li","lines":"29,31"}}],"payload":{"tag":"li","lines":"28,31"}}],"payload":{"tag":"h3","lines":"27,28"}}],"payload":{"tag":"h2","lines":"11,12"}},{"content":"Anzahl der Tags","children":[{"content":"Meist zwei Tags","children":[{"content":"&#xd6;ffnend","children":[],"payload":{"tag":"li","lines":"33,34"}},{"content":"Schlie&#xdf;end","children":[],"payload":{"tag":"li","lines":"34,35"}}],"payload":{"tag":"li","lines":"32,35"}},{"content":"Ausnahme:","children":[{"content":"<code>&lt;img&gt;</code>","children":[],"payload":{"tag":"li","lines":"36,37"}},{"content":"(Etiqueta sin cierre)","children":[],"payload":{"tag":"li","lines":"37,39"}}],"payload":{"tag":"li","lines":"35,39"}}],"payload":{"tag":"h2","lines":"31,32"}}],"payload":{"tag":"h1","lines":"6,7"}},{"maxWidth":300,"color":["#4c9141"]})</script>
+</body>
+</html>
